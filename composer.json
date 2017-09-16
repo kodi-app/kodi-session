@@ -1,0 +1,30 @@
+{
+    "name": "kodi-app/kodi-session",
+    "type": "library",
+    "description": "KodiApp Session",
+    "keywords": ["framework","php","session","kodiapp"],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/kodi-app/kodi-session",
+    "authors": [
+        {
+            "name": "Attila Nagy",
+            "email": "anagy@hit.bme.hu",
+            "role": "Author, Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "KodiSession": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "kodi-app/kodi-core": "v0.9.*",
+        "nagyatka/pandabase": "v0.20.*",
+        "symfony/http-foundation": "v3.3.*"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.8"
+    }
+}
