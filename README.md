@@ -1,6 +1,6 @@
 # SessionProvider
 
-This repository contains different Session implementation for for KodiApp.
+This repository contains different Session implementation for KodiApp.
 
 ## Installation
 
@@ -17,7 +17,7 @@ PandabaseSessionHook implementation is based on Symfony's PdoSessionHandler.
 $application->run([
     // ...
     KodiConf::HOOKS => [
-        \KodiCore\Hook\DummyHook::class,
+        // ...
         [
             "class_name" => PandabaseSessionHook::class,
             "parameters" => [

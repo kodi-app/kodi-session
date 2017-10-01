@@ -9,7 +9,7 @@
 namespace KodiSession\Hook;
 
 
-use KodiApp\Session\PandabaseSessionHandler;
+use KodiSession\Handler\PandabaseSessionHandler;
 use KodiCore\Core\KodiConf;
 use KodiCore\Hook\HookInterface;
 use KodiCore\Request\Request;
